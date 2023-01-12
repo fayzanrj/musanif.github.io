@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="side-nav" id="side-nav">
+            <ul>
+                <li><button id="close-nav" class="close-nav"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAh0lEQVR4nO2USw6AIAwF5xIlckQ9riw8Dm4wMYZAy8e4cFYs2vcKLYWfr7ICzhDvUo6KDYhAUJq4FBtTbhUB9pRwAN4Qu2hvoTGRVnGNifSKl0xklHiuieFxtkxaEblVPazymoEfJe5mPpFkGmr5J2bxi24TzShKq4llzqXFZPqym76uf97lBItjSzKPDXfjAAAAAElFTkSuQmCC"></button></li>
+                <li><a href="https://www.instagram.com/mu.sanif/"><img src="data:image/png;base64,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"></a></li>
+                <!-- <li><a href="#">Hi</a></li>
+                <li><a href="#">Hi</a></li>
+                <li><a href="#">Hi</a></li>
+                <li><a href="#">Hi</a></li> -->
+            </ul>
+        </div>
+        <button id="open-nav" class="open-nav"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR4nGNgGAWjYDgDaQYGhrUMDAy7aYTXQu3AALkMDAz/aYxzB8LHa3D5eBSMDKDPwMDgQiVsw8DAwEqMpUE0yD4TB7XF1A5qawYGBhawqaNgxANpMiqJaQwMDMyUhlwumVlGdyB8PJUaPh4Fo2B4AADp95Bye0O/XgAAAABJRU5ErkJggg=="></button>
+    </nav>
+    <div class="container">
+        مصنف
+    </div>
+    <div class="container2">
+        <div class="content-box">
+            <div class="content-preview">
+                <div class="content" id="content1">
+                    بِک رہاہے ہر شخص ہی ادھر<br>
+                    ہرفردکوکچھ داموں ہےبک جانا <br>
+                    میں بھی چاہوں بننا ان جیسا<br>
+                    مگرسوچتےہی ضمیرکو ہے چِلانا<br>
+                    کس کس کوآخر یہاں بُرا کہوں <br>
+                    سستی شہرت کاہرکوئی ہےدیوانہ<br>
+                    کوئی کسی کوتمیز نہیں حق سچ کی<br>
+                    حلال یاحرام بس پیسہ ہےکمانہ<br>
+                    خود کھالیں گےاوروں کاحق مگر<br>
+                    انہیں باقیوں کواسلام ہےبتانا<br>
+                    ویسے تو ہر کوئی بنتا ہے فرشتہ<br>
+                    پرانہیں ہرفردکو نیچا ہے دیکھانا<br>
+                    جتانا ہے کیا ہوا احسان بھی<br>
+                    جوچاہےبننااچھااسے ہے دبانہ<br>
+                    لکھ رہاان پرجیسےہوں بہترمیں<br>
+                    کیاکروں دل کوبھی توہےبہلانا<br>
+                    بس کردوں کیا یہ لکھائی میں؟<br>
+                    ابھی جاکرضمیرکوبھی ہےدفنانا<br>
+                </div>
+                <div class="content" id="content2">
+                    غمِ حیات تو نہ تھا کوئی<br>
+                    مگر یہ غمِ یاربھی تو تھا <br>
+                    سورہاخوابِ غفلت میں <br>
+                    مگر کبھی بیدار بھی تو تھا<br>
+                    جیتا تو ہوں کافی کچھ<br>
+                    مگر میں ہار بھی تو گیا<br>
+                    بدلنا چاہا خود کو،رہا ناکام<br>
+                    مگرآیاکبھی سُدھاربھی توتھا<br>
+                    تھاسب ہی اِک دورمیں<br>
+                    مگرتب موسمِ بہاربھی تو تھا<br>
+                    تھےسب ساتھ اورخوش<br>
+                    مگر ہمیں بچھڑنابھی توتھا<br>
+                    جی تو رہا تھا اچھے سے<br>
+                    مگر یاد مرنا بھی تو تھا<br>
+                    مرتو رہا تھا گُھٹن سے<br>
+                    مگر مجھے جینا بھی تو تھا<br>
+                    تھی امیدکہ ہوگاکچھ اچھا<br>
+                    مگر امید کو ٹوٹنا بھی تو تھا<br>
+                    کیوں کررہافضول یہ شاعری<br>
+                    مگراب کچھ لکھنابھی تو تھا<br>
+                </div>
+            </div>
+            <div class="content-display" id="content-display">
+                بچھڑگئےاِک لمحےمیں، پر<br>
+                تھاوقت اچھا،گزرگیا اب<br>
+                عہد کرتا تھاساتھ دینے کا<br>
+                وہ نکلا بدعہد، مُکر گیا اب<br>
+                ہمیں بس بُراکہنےوالا، وہ<br>
+                فرشتہ صفت،کدھرگیااب<br>
+                تھاخوش یہ دل ناداں بھی<br>
+                پر غم سے، سُکھڑ گیا اب<br>
+                یادلمحے کرکے سوچتا،کیوں<br>
+                خودپر میں نے، جبڑکیااب<br>
+                وہ فرد توہےخوش ،حالت<br>
+                میری کی اسے،خبرکیااب<br>
+                سہاجوسوچا نہ تھا کبھی، پ<br>ر
+                جو بھی تھا، درگزر کیا اب<br>
+                لگتااختتام زندگی ہےقریب<br>
+                پرتھاوقت اچھا،گزرگیااب<br>
+            </div>
+            <div class="content-preview">
+
+                <div class="content" id="content3">
+                    امیدِ خوشی میں ہم بھی ہیں بیٹھے<br>
+                    پتاچلا کچھ؟ اُس سےآئی خبر جو ہے؟<br>
+                    یااُتر کر دل میں ہی دیکھنا پڑے گا؟<br>
+                    کہ ہےکس کا دیایہ نشانِ جبڑ جو ہے<br>
+                    ناجانے دفن ہے کون اس میں<br>
+                    بنی دل کے کونے میں قبر جو ہے<br>
+                    پر قبر نہیں یہ تو قبرستان سا لگا رہا<br>
+                    جس قدر مجھ پر اس کا اثر جو ہے<br>
+                    کیوں ہی آخر چھیڑ رہا یہ قصہ میں<br>
+                    مل چکا مجھے بھی یہ صبر جو ہے<br>
+                    دل کرتا چھوڑ دوں سب کچھ اور<br>
+                    دیکھوں آسمان پرموجود یہ قمر جوہے<br>
+                    اور ڈھونڈوں مشاھبت اپنی ذات<br>
+                    اوراس داغ میں قمرپرمقرر جو ہے<br>
+                    کہ ہر شے میں موجودہیں یہ خامیاں <br>
+                    موجودمجھ میں بھی اس قدر جو ہیں<br>
+                    اور کتنی خوبصورت لگتی خامیاں<br>
+                    اگر اندر سے نکلے یہ نِکھر جو ہے<br>
+                    پر چاہئیے ہوتاکوئی جو لائے نِکھر<br>
+                    آخرقمربھی ہوتاسورج کامنتظر ہی ہے<br>
+                </div>
+                <div class="content " id="content4">
+                    ان کا نہ کرنا یہ اعترافِ ستم <br>
+                    نہیں بڑاستم کوئی اس ستم سے<br>
+                    نظراندازکردیتے وہ حالت ہماری<br>
+                    جیسےمنسلک ہیں ہم کسی جُرم سے<br>
+                    باوجوداس رویےکےمنتظرہیں ہم<br>
+                    مر کیوں نہیں جاتےہم شرم سے<br>
+                    منتظرکہ بُلا کرکہیں وہ ہمیں بھی<br>
+                    کہ محبت تھی اور ہےتم سے<br>
+                    ملتی خوشی چاہےخیال ہی میں<br>
+                    تبھی خیال میں رہتے ہم گُم سے<br>
+                    زمانہ بھی لگا تباہ کرنےمیں ہمیں<br>
+                    کیسےناکہیں ہےگہراتعلق غم سے<br>
+                    غمِ دوراں تو ہوسکتےختم اگر<br>
+                    کرلیں توبہ وہ ہم پرستم سے<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright 	&#169; 2023 Musanif & Co.
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
