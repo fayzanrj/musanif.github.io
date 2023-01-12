@@ -76,7 +76,7 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 10rem;
-    animation: fadein 3s ease-in;
+    animation: fadein 2.5s ease-in;
 }
 
 
@@ -147,7 +147,7 @@ a {
     }
 
     .container2 {
-        height: 90rem;
+        height: 93rem;
         align-items: flex-start;
     }
 
