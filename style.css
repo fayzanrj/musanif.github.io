@@ -125,7 +125,7 @@ a {
     width: 13rem;
     height: 18rem;
     text-align: center;
-    border: 1px solid black;
+/*     border: 1px solid black; */
     overflow: hidden;
     font-family: 'Gulzar', serif;
     font-size: .7rem;
