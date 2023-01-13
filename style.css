@@ -69,24 +69,34 @@ a {
 
 .container {
     font-family: 'Noto Nastaliq Urdu', serif;
-    width: 90%;
+    width: 100%;
     height: 41rem;
     /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content:center;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 0;
     font-size: 10rem;
     animation: fadein 2.5s ease-in;
-    margin: 1% 5%;
+}
+
+.container-in{
+    width: 50%;
+    height: 30rem;
+    margin: 1% 5%; 
     border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
 }
 
 .arrow{
     position: absolute;
     bottom: 0;
     display: none;
+    transition: 1s ease-in-out;
 }
 
 .container2 {
