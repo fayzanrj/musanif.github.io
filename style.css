@@ -101,9 +101,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-
+.content-box::before{
+    content: 'بڑا کرنے کے لیے کسی بھی باکس پر کلک کریں۔';
+    position: absolute;
+    top: -1.7rem;
+    margin: 0 20%;
+    font-family: 'Gulzar', serif;
+    font-size: 1rem;
+}
 
 .content-box {
     width: 50rem;
@@ -111,7 +119,7 @@ a {
     /* background-color: pink; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .content-display {
@@ -125,7 +133,7 @@ a {
     width: 13rem;
     height: 18rem;
     text-align: center;
-/*     border: 1px solid black; */
+    /* border: 1px solid black; */
     overflow: hidden;
     font-family: 'Gulzar', serif;
     font-size: .7rem;
@@ -141,6 +149,8 @@ a {
     flex-direction: column;
     justify-content: space-around;
 }
+
+
 
 @keyframes fadein {
     0% {
@@ -179,6 +189,10 @@ a {
         align-items: center;
     }
 
+    .content-box::before{
+        font-size: .7rem;
+        margin: 0;
+    }
     .content-preview {
         flex-direction: row;
         gap: 1.5rem;
