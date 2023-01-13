@@ -107,8 +107,8 @@ a {
 .content-box::before{
     content: 'بڑا کرنے کے لیے کسی بھی باکس پر کلک کریں۔';
     position: absolute;
-    top: -1.7rem;
-    margin: 0 20%;
+    top: 1.8rem;
+    margin: 0 18.5%;
     font-family: 'Gulzar', serif;
     font-size: 1rem;
 }
@@ -192,6 +192,7 @@ a {
     .content-box::before{
         font-size: .7rem;
         margin: 0;
+        top:-2.2rem;
     }
     .content-preview {
         flex-direction: row;
