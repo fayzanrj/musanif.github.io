@@ -130,6 +130,9 @@ a {
     font-family: 'Gulzar', serif;
     font-size: .7rem;
     cursor: pointer;
+    background-image: url('content-bg.jpeg');
+    background-position: center;
+    background-size: cover;
 }
 
 .content-preview {
